@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+input, button, textarea {
+  padding: 10px;
+  margin: 5px;
+}
+
+.sidebar {
+  width: 200px;
+  background: #333;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.content {
+  padding: 20px;
+  flex-grow: 1;
+}
